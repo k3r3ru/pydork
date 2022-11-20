@@ -1,7 +1,7 @@
 # pydork
 A simple Python script to find publicly indexed subdomains of a given domain through Selenium web browser automation. The TLS certificate SAN field is checked for additional domains, if available on port 443.
 
-Optionally, the script can fetch known urls for each domain and check them against a wordlist of notoriously sensitive web server folders.
+Optionally, the script can fetch known urls for each domain from waybackmachine.com and check them against a wordlist of notoriously sensitive web server folders.
 
 ----------------------------------------------------------------------------------------------
 
